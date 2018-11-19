@@ -9,8 +9,16 @@ body {
    height: 100%;
    font-family: 'Nunito Sans', sans-serif;
 }
-
+	
 main {
    flex: 1 0 auto;
    font-family: 'Nunito Sans', sans-serif;
+}
+
+.instafeed-grid{
+    width:20%;height:40%;
+  }
+
+.fotos {
+	width: 100%;
 }
