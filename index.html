@@ -223,13 +223,6 @@
               </aside>
             </div>
             <div class="col-12" id="instafeed">        
-              <script type="text/javascript">
-                  var feed = new Instafeed({
-                      get: 'ligaunionusb',
-                      userId: 'a840d5bf2ae7487289d26c3bb48ff3c6',
-                  });
-                  feed.run();
-              </script>
             </div>
           </div>
         </div>
@@ -244,7 +237,18 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
+        <!-- INSTAFEED.JS INITIALIZATION -->
+    <script type="text/javascript">
+    var userFeed = new Instafeed({
+        get: 'user',
+        userId: 'ligaunionusb',
+        clientId: 'a840d5bf2ae7487289d26c3bb48ff3c6',
+        template: '<a href="{{link}}"><img src="{{image}}" class="instafeed-grid" /></a>',
+        resolution: 'low_resolution',
+        limit: '10',
+    });
+    userFeed.run(); 
+      
     <script type="text/javascript" src="instafeed.min.js"></script>  
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
