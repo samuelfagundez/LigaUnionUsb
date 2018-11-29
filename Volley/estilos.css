@@ -1,6 +1,7 @@
 html {
    height: 100%;
    font-family: 'Nunito Sans', sans-serif;
+   scroll-behavior: smooth;
 }
 
 body {
@@ -9,16 +10,27 @@ body {
    height: 100%;
    font-family: 'Nunito Sans', sans-serif;
 }
-	
+
+.box {
+  width: 570px;
+  height: 700px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
 main {
    flex: 1 0 auto;
    font-family: 'Nunito Sans', sans-serif;
 }
 
 .instafeed-grid{
-    width:20%;height:40%;
+    width:20%;height:50%;
   }
 
 .fotos {
 	width: 100%;
+}
+
+.footer {
+  background-color: rgba(245, 172, 14, 0.7);
 }
