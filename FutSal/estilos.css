@@ -10,7 +10,14 @@ body {
    height: 100%;
    font-family: 'Nunito Sans', sans-serif;
 }
-	
+
+.box {
+  width: 570px;
+  height: 700px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
 main {
    flex: 1 0 auto;
    font-family: 'Nunito Sans', sans-serif;
@@ -22,4 +29,8 @@ main {
 
 .fotos {
 	width: 100%;
+}
+
+.footer {
+  background-color: black;
 }
