@@ -146,3 +146,22 @@ h2 {
     top: 70%;
   }
 }
+
+.instafeed-grid{
+    width:20%;height:20%;
+  }
+
+  @media screen and (max-width: 500px){
+  .instafeed-grid{
+    width:33.333%;height:33.333%;
+  }
+  .vertical-squares{
+  height: 300px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  }
+  #instafeed{
+    height: 60vh;
+  }
+}
