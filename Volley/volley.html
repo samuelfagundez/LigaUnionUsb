@@ -13,13 +13,13 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="shortcut icon" href="UUSB.png" />
+    <link rel="shortcut icon" href="UUSBFondoblanco.png" />
     <title> Liga Unión USB | Unidos somos más </title>
     </head>
     <body>
       <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand ml-1" href="#"><img src="UUSB.png" height="55px" width="85px"></a>
+  <a class="navbar-brand ml-1" href="../index.html"><img src="UUSB.png" height="55px" width="85px"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -27,17 +27,17 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link text-warning ml-3" style="font-size: 21px" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link text-warning ml-3" style="font-size: 21px" href="../index.html">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle text-warning ml-3" style="font-size: 21px" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Futsal
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Proximos juegos y tabla de resultados</a>
-          <a class="dropdown-item" href="#">Equipos y tabla de goleadores</a>
-          <a class="dropdown-item" href="#">Noticias y premio</a>
-          <a class="dropdown-item" href="#">Fotos</a>
+          <a class="dropdown-item" href="../FutSal/futsal.html#posiciones">Tablas de posiciones</a>
+          <a class="dropdown-item" href="../FutSal/futsal.html#juegos">Próximos juegos y goleadores</a>
+          <a class="dropdown-item" href="../FutSal/futsal.html#instafeed">Fotos</a>
+          <a class="dropdown-item" href="../FutSal/futsal.html#equipos">Equipos</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -45,189 +45,283 @@
           Volleyball
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Proximos juegos y tabla de resultados</a>
-          <a class="dropdown-item" href="#">Equipos y tabla de goleadores</a>
-          <a class="dropdown-item" href="#">Noticias y premio</a>
-          <a class="dropdown-item" href="#">Fotos</a>
+          <a class="dropdown-item" href="../Volley/volley.html#posiciones">Tabla de posiciones</a>
+          <a class="dropdown-item" href="../Volley/volley.html#juegos">Próximos juegos y goleadores</a>
+          <a class="dropdown-item" href="../Volley/volley.html#equipos">Equipos</a>
+          <a class="dropdown-item" href="../Volley/volley.html#instafeed">Fotos</a>
         </div>
       </li>
     </ul>
     <span style="font-size: 2em">
-      <i class="fas fa-envelope mr-3"></i>
-      <a href="#"><i class="fab fa-instagram mr-2"></i></a>
+      <a href="https://www.instagram.com/ligaunionusb/" class="mr-3" target="_blank"><i class="fab fa-instagram" style="color:#f1ad1a"></i></a>
     </span>
   </div>
 </nav>
       </header>
-
-
-
-      <main class="main" id="main">
+      <main class="main bg-light" id="main">
         <div class="container-fluid">
           <div class="row">
             <div class="col-12 bg-light">
-              <h2 class="text-center mt-2 mb-3">Futbol Sala</h2>
+              <h2 id="posiciones" class="text-center mr-2">Tablas de posiciones</h2>
             </div>
-            <div class="col-xs-12 col-lg-6 bg-light">
-              <section class="mt-3">
-                <h3 class="text-center mb-3">Proximos juegos</h3>
-                <table class="table mt-3 mb-5">
+            <div class="col-12 bg-light">
+              <aside class="mt-2">
+                <table class="table col-12 mt-3 mb-5">
                   <thead class="thead-black">
-                    <tr class="table-ligh">
-                      <th scope="col">Horario del partido</th>
-                      <th scope="col">Casa</th>
-                      <th scope="col">Visitante</th>
+                    <tr class="table-light mx-5">
+                      <th class="text-center">Equipo</th>
+                      <th class="text-center">PTS</th>
+                      <th class="text-center">PJ</th>
+                      <th class="text-center">PG</th>
+                      <th class="text-center">PE</th>
+                      <th class="text-center">PP</th>
+                      <th class="text-center">PF</th>
+                      <th class="text-center">PC</th>
+                      <th class="text-center">AVG</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr class="table-warning">
-                      <th scope="row">1</th>
-                      <td>Mark</td>
-                      <td>Otto</td>
+                      <th class="text-center">Los + O -</th>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
                     </tr>
                     <tr class="table-light">
-                      <th scope="row">2</th>
-                      <td>Jacob</td>
-                      <td>Thornton</td>
+                      <th class="text-center" scope="">Los BigBiggis</th>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
                     </tr>
                     <tr class="table-warning">
-                      <th scope="row">3</th>
-                      <td>Larry</td>
-                      <td>the Bird</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <br>
-              </section>
-            </div>
-            <div class="col-xs-12 col-lg-6 bg-warning">
-              <aside class="mt-3">
-                <h3 class="text-center mb-3">Tabla de posiciones</h3>
-                <table class="table mt-3 mb-5">
-                  <thead class="thead-black">
-                    <tr class="table-light  ">
-                      <th scope="col">Nombre del Equipo</th>
-                      <th scope="col">Eliminado</th>
-                      <th scope="col">Goles a favor</th>
-                      <th scope="col">Goles en contra</th>
-                      <th scope="col">Tarjetas amarilla</th>
-                      <th scope="col">Tarjetas roja</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr class="table-warning">
-                      <th scope="row">1</th>
-                      <td>Mark</td>
-                      <td>Otto</td>
-                      <td>@mdo</td>
-                      <td>@fat</td>
-                      <td>@fat</td>
+                      <th class="text-center">Fórmula</th>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
                     </tr>
                     <tr class="table-light">
-                      <th scope="row">2</th>
-                      <td>Jacob</td>
-                      <td>Thornton</td>
-                      <td>@fat</td>
-                      <td>@fat</td>
-                      <td>@fat</td>
+                      <th class="text-center">Los Tuqueques</th>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
                     </tr>
                     <tr class="table-warning">
-                      <th scope="row">3</th>
-                      <td>Larry</td>
-                      <td>the Bird</td>
-                      <td>@twitter</td>
-                      <td>@fat</td>
-                      <td>@fat</td>
+                      <th class="text-center">Yo a esta gente no la conozco</th>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                    </tr>
+                    <tr class="table-light">
+                      <th class="text-center">3 panas y Pedro</th>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                    </tr>
+                    <tr class="table-warning">
+                      <th class="text-center">Un 3 pa 3</th>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
+                      <td class="text-center">0</td>
                     </tr>
                   </tbody>
                 </table>
               </aside>
             </div>
-            <div class="col-xs-12 col-lg-6 bg-warning">
-              <section class="mt-3">
-                <h3 class="text-center mb-3">Equipos</h3>
-                <table class="table mt-3 mb-5">
+            <div class="col-xs-12 col-lg-6 bg-light">
+              <section class="mt-2">
+                <h3 id="juegos" class="text-center offset-lg-3 mb-3">Próximos juegos</h3>
+                <table class="table col-xs-6 col-lg-10 offset-lg-2 offset-xs-3 mt-3 mb-5">
                   <thead class="thead-black">
                     <tr class="table-ligh">
-                      <th scope="col">Nombre del equipo</th>
-                      <th scope="col">Capitan</th>
-                      <th scope="col">Jugador</th>
-                      <th scope="col">Jugador</th>
-                      <th scope="col">Jugador</th>
-                      <th scope="col">Jugador</th>
-                      <th scope="col">Jugador</th>
-                      <th scope="col">Jugador</th>
-                      <th scope="col">Jugador</th>
+                      <th class="text-center" scope="col">Horario del partido</th>
+                      <th class="text-center" scope="col">Equipo 1</th>
+                      <th class="text-center" scope="col">Equipo 2</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr class="table-warning">
-                      <th scope="row">1</th>
-                      <td>Mark</td>
-                      <td>Otto</td>
+                      <th class="text-center" scope="row">10:30am-11:20am</th>
+                      <td class="text-center">Un 3 pa 3</td>
+                      <td class="text-center">Los BigBiggis</td>
                     </tr>
                     <tr class="table-light">
-                      <th scope="row">2</th>
-                      <td>Jacob</td>
-                      <td>Thornton</td>
+                      <th class="text-center" scope="row">12:00am-12:50m</th>
+                      <td class="text-center">Yo a esta gente no la conozco</td>
+                      <td class="text-center">Los + O -</td>
                     </tr>
                     <tr class="table-warning">
-                      <th scope="row">3</th>
-                      <td>Larry</td>
-                      <td>the Bird</td>
+                      <th class="text-center" scope="row">12:30pm-1:05pm</th>
+                      <td class="text-center">3 panas y Pedro</td>
+                      <td class="text-center">Fórmula</td>
+                    </tr>
+                    <tr class="table-light">
+                      <th class="text-center" scope="row">1:30pm-2:05pm</th>
+                      <td class="text-center">Los Tuqueques</td>
+                      <td class="text-center">3 panas y pedro</td>
+                    </tr>
+                    </tr>
+                  </tbody>
+                </table>
+              </section>
+            </div>
+            <div class="col-xs-12 col-lg-4 offset-1 mb-5 bg-light"> 
+              <h3 class="text-center mb-3">Reglas</h3>
+              <div class="col-12 box">
+                <p class="text-justify">Reglas de la Liga Unión (Volleyball):
+
+🏐 Duración de Partidos:
+-Se jugarán máximo 3 sets por partido, ganará el primero que acumule 2; los dos primeros sets se jugarán de 21 puntos, en caso de ir a un tercer set, este será de 15 puntos.
+-Cada equipo tiene derecho a un máximo de dos tiempos para descanso por set.
+-El intervalo de tiempo entre cada set será de 3 minutos.
+
+🏐 Infracciones en consideración:
+-Mal voleo.
+-Mala rotación.
+-Invasión.
+-Toque de malla.
+-Respetar la raya de saque.
+-Respetar zona de ataque de acuerdo a las posiciones en la cancha.
+
+🏐 Vestimenta:
+-Shorts de deporte (No de playa).
+-Zapatos de goma deportivos.
+-Camisa de mismo color por equipo.
+-Rodilleras. (Opcionales).
+
+🏐 Forfeits: (Importante)
+-Si uno de los dos equipos, no asiste a la hora prevista al partido, tendrán 15 minutos extra para hacerlo. En caso de que no lleguen después de los 15 minutos se dará el juego como concluido, y el marcador final, será 2-0.
+
+-En el caso de que ninguno de los equipos se presente, pasados los 15 minutos extras, el partido se llevará a revisión del comité de la Liga Unión.</p>
+            </div>
+            </div>
+            <div class="pl-0 pr-0 col-12 bg-light" id="instafeed"> 
+            </div>
+            <div class="col-12 bg-light">
+              <section id="equipos" class="mt-5">
+                <h3 class="text-center mb-3">Equipos</h3>
+                <table class="table mt-3 mb-5">
+                  <thead class="thead-black">
+                    <tr class="table-ligh">
+                      <th class="text-center" scope="col">Nombre del equipo</th>
+                      <th class="text-center" scope="col">Capitan</th>
+                      <th class="text-center" scope="col">Jugador</th>
+                      <th class="text-center" scope="col">Jugador</th>
+                      <th class="text-center" scope="col">Jugador</th>
+                      <th class="text-center" scope="col">Jugador</th>
+                      <th class="text-center" scope="col">Jugador</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="table-warning">
+                      <th class="text-center" scope="row">Los + O -</th>
+                      <td class="text-center">Maria Tovar</td>
+                      <td class="text-center">Jonathan lopez</td>
+                      <td class="text-center">Andrea Colmenarez</td>
+                      <td class="text-center">Andrea Vasquez</td>
+                      <td class="text-center">Jose Rattia</td>
+                      <td class="text-center">David Rodriguez</td>
+                    </tr>
+                    <tr class="table-light">
+                      <th class="text-center" scope="row">Los BigBiggis</th>
+                      <td class="text-center">Gianfranco Ravelli</td>
+                      <td class="text-center">Vincenzo Carbone</td>
+                      <td class="text-center">Daniela Masellis</td>
+                      <td class="text-center">Constanza Marmol</td>
+                      <td class="text-center">Ricardo Hernandez</td>
+                      <td class="text-center">Nicole Campos</td>
+                    </tr>
+                    <tr class="table-warning">
+                      <th class="text-center" scope="row">Un 3 pa 3</th>
+                      <td class="text-center">Karen Martinez</td>
+                      <td class="text-center">Ruben Blanco</td>
+                      <td class="text-center">Alejandro Blanco</td>
+                      <td class="text-center">Carlos Zambrano</td>
+                      <td class="text-center">Shannon Gutt</td>
+                      <td class="text-center">Laura Villalba</td>
+                    </tr>
+                    <tr class="table-light">
+                      <th class="text-center" scope="row">Fórmula</th>
+                      <td class="text-center">Javier Gil</td>
+                      <td class="text-center">Oscar Machuca</td>
+                      <td class="text-center">Iván Morales</td>
+                      <td class="text-center">Gabriela Salas</td>
+                      <td class="text-center">Mariana Arvelaiz</td>
+                      <td class="text-center">Yulimar Level</td>
+                    </tr>
+                    <tr class="table-warning">
+                      <th class="text-center" scope="row">Los Tuqueques</th>
+                      <td class="text-center">Yonaiber Ramos</td>
+                      <td class="text-center">Rosmary Román</td>
+                      <td class="text-center">Ana Marichal</td>
+                      <td class="text-center">Pablo Garrido</td>
+                      <td class="text-center">José Castillo</td>
+                      <td class="text-center">Andrea Zambrano</td>
+                    </tr>
+                    <tr class="table-light">
+                      <th class="text-center" scope="row">Yo a esta gente no la conozco</th>
+                      <td class="text-center">Jose Rubin</td>
+                      <td class="text-center">Abel Zavaleta</td>
+                      <td class="text-center">Legna Rodriguez</td>
+                      <td class="text-center">Emily Toro</td>
+                      <td class="text-center">Betania Agraz</td>
+                      <td class="text-center">Omar Gonzales</td>
+                    </tr>
+                    <tr class="table-warning">
+                      <th class="text-center" scope="row">3 panas y Pedro</th>
+                      <td class="text-center">Pedro Fontaines</td>
+                      <td class="text-center">Daniel Carao</td>
+                      <td class="text-center">Ramsés Antolinea</td>
+                      <td class="text-center">Perla Cueto</td>
+                      <td class="text-center">Reyneth Castro</td>
+                      <td class="text-center">Andrea Barrios</td>
                     </tr>
                   </tbody>
                 </table>  
               </section>
             </div>
-            <div class="col-xs-12 col-lg-6 bg-light">
-              <aside class="mt-3">
-                <h3 class="text-center mb-3">Tabla de goleadores</h3>
-                <table class="table mt-3">
-                  <thead class="thead-black">
-                    <tr class="table-light  ">
-                      <th scope="col">Nombre del Jugador</th>
-                      <th scope="col">Numero de goles</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr class="table-warning">
-                      <th scope="row">1</th>
-                      <td>Mark</td>
-                    </tr>
-                    <tr class="table-light">
-                      <th scope="row">2</th>
-                      <td>Jacob</td>
-                    </tr>
-                    <tr class="table-warning">
-                      <th scope="row">3</th>
-                      <td>Larry</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </aside>
-            </div>
-            <div class="col-xs-12 col-lg-6 bg-light">
-              <section class="mt-3">
-                <h3 class="text-center mb-3">Noticias</h3>
-                <br>
-              </section>
-            </div>
-            <div class="col-xs-12 col-lg-6 bg-warning">
-              <aside class="mt-3">
-                <h3 class="text-center mb-3">Algo</h3>
-                <br>
-              </aside>
-            </div>
-          <div class="pl-0 pr-0 col-12" id="instafeed"> 
-          </div>
           </div>
         </div>
-
       </main>
 
-    <footer>
-
+    <footer class="footer">
+          <div class="container">
+            <p class="text-center mt-2 text-light">All rights reserved <a class="text-light" href="https://www.linkedin.com/in/pedro-samuel-fagundez-500877173/" target="_blank">Samuel Fagundez</a> 2018</p>
+          </div>
     </footer>
     
 
@@ -235,17 +329,17 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <!-- INSTAFEED.JS INITIALIZATION -->
     <script type="text/javascript" src="instafeed.min.js"></script>
-    <!-- <script type="text/javascript">
+    <script type="text/javascript">
     var userFeed = new Instafeed({
         get: 'user',
-        userId: '611167478',
-        accessToken: '611167478.3deae4f.e5532251fb82491eabcd725571b67747',
+        userId: '8706608316',
+        accessToken: '8706608316.b820b28.96eb38c4fce04a559a0f4fef14c584be',
         template: '<a href="{{link}}"><img src="{{image}}" class="instafeed-grid"/></a>',
-        resolution: 'low_resolution',
+        resolution: 'standard_resolution',
         limit: '10',
     });
     userFeed.run(); 
-    </script> -->
+    </script>
     </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"> </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
