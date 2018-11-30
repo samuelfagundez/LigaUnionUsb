@@ -24,11 +24,11 @@ html, body {
 }
 
 h3 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #fff;
   position: absolute;
   left: 50%;
-  top: 20%;
+  top: 25%;
   transform: translateX(-50%);
   white-space: nowrap;
 }
@@ -38,9 +38,9 @@ h3 {
   position: absolute;
   left: 50%;
   top: 40%;
-  height: 2.5rem;
+  height: 2rem;
   padding-top: 1.3rem;
-  width: 15rem;
+  width: 12rem;
   text-align: center;
   color: #fff;
   border: #fff solid 0.2rem;
