@@ -1,9 +1,9 @@
 :root {
   --container-bg-color: #333;
-  --left-bg-color: rgba(223, 39, 39, 0.7);
-  --left-button-hover-color: rgba(161, 11, 11, 0.3);
-  --right-bg-color: rgba(43, 43, 43, 0.8);
-  --right-button-hover-color: rgba(92, 92, 92, 0.3);
+  --left-bg-color: rgba(245, 172, 14, 0.5);
+  --left-button-hover-color: rgba(245, 172, 14, 0.8);
+  --right-bg-color: rgba(250, 248, 243, 0.5);
+  --right-button-hover-color: rgba(250, 248, 243, 0.7);
   --hover-width: 75%;
   --other-width: 25%;
   --speed: 1000ms;
@@ -18,12 +18,17 @@ html, body {
   overflow-x: hidden;
 }
 
-h1 {
-  font-size: 4rem;
+
+#fas {
+  color:#red;
+}
+
+h3 {
+  font-size: 3rem;
   color: #fff;
   position: absolute;
   left: 50%;
-  top: 20%;
+  top: 25%;
   transform: translateX(-50%);
   white-space: nowrap;
 }
@@ -33,9 +38,9 @@ h1 {
   position: absolute;
   left: 50%;
   top: 40%;
-  height: 2.5rem;
+  height: 2rem;
   padding-top: 1.3rem;
-  width: 15rem;
+  width: 12rem;
   text-align: center;
   color: #fff;
   border: #fff solid 0.2rem;
@@ -72,7 +77,7 @@ h1 {
 
 .split.left {
   left:0;
-  background: url('futs.jpg') center center no-repeat;
+  background: url('../fotos/futs.jpg') center center no-repeat;
   background-size: cover;
 }
 
@@ -86,7 +91,7 @@ h1 {
 
 .split.right {
   right:0;
-  background: url('voll.jpg') center center no-repeat;
+  background: url('../fotos/voll.jpg') center center no-repeat;
   background-size: cover;
 }
 
@@ -140,5 +145,24 @@ h1 {
 @media(max-height: 700px) {
   .button {
     top: 70%;
+  }
+}
+
+.instafeed-grid{
+    width:20%;height:20%;
+  }
+
+  @media screen and (max-width: 500px){
+  .instafeed-grid{
+    width:33.333%;height:33.333%;
+  }
+  .vertical-squares{
+  height: 300px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  }
+  #instafeed{
+    height: 60vh;
   }
 }
