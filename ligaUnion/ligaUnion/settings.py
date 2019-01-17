@@ -25,7 +25,7 @@ SECRET_KEY = 'wx7zxg-u&=ym1m$#!qis34kk(p4oux))&#wcogd*&*xu9^iln9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'futsal',
 ]
 
 MIDDLEWARE = [
