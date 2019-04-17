@@ -37,7 +37,7 @@ class Grupo(models.Model):
 	numero = models.PositiveSmallIntegerField(blank=False, null=False)
 
 	def __str__(self):
-		return str(self.numero)
+		return "Grupo Nº%s" % str(self.numero)
 
 class Partido(models.Model):
 	fecha = models.DateTimeField()
